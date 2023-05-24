@@ -51,3 +51,4 @@ _deps
 DartConfiguration.tcl
 build.ninja
 Info.plist
+PathTracer/render_image/main
