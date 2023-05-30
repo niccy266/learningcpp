@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
    // Render
 
-   std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
+   std::cout << "P3\n" << immage_width << ' ' << image_height << "\n255\n";
 
    for (int j = image_height-1; j >= 0; --j) {
       std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
